@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <title>Weather-App</title>
+</head>
+
+<body>
+
+
+
+    <div id="contain" class="container">
+        <div class="searchbox">
+            <a class="fa-solid fa-location-dot" style="color: #d21414;"></a>
+            <input id="daxilet" type="text" placeholder="Məkanı daxil edin.">
+            <button id="button" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div id="notfound" class="not-found">
+            <img src="./src/img/notfound.jpg">
+            <p>Məkan Tapılmadı!</p>
+        </div>
+
+        <div id="weatherbox" class="weather-box">
+            <img src="">
+            <p id="temperature"  class="temperature"></p>
+            <p id="description" class="description"></p>
+        </div>
+        
+        <div id="weatherdetal" class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i> 
+                <div class="text">
+                    <span id=""></span>
+                    <p>Rütubət</p>
+                </div>
+            </div>
+            <div class="humidity">
+                <i class="fa-solid fa-wind"></i> 
+                <div class="text">
+                    <span></span>
+                    <p>Küləyin sürəti</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="./src/js/main.js"> </script>
+</body>
+
+</html>
