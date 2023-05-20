@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Aqil-Weather-App</title>
 </head>
 
@@ -19,7 +20,7 @@
 
     <div id="contain" class="container">
         <div class="searchbox">
-            <a class="fa-solid fa-location-dot" style="color: #d21414;"></a>
+            <i class="fa-solid fa-location-dot" style="color: #d21414;"></i>
             <input id="daxilet" type="text" placeholder="Məkanı daxil edin.">
             <button id="button" class="fa-solid fa-magnifying-glass"></button>
         </div>
@@ -31,23 +32,23 @@
 
         <div id="weatherbox" class="weather-box">
             <img src="">
-            <p id="temperature"  class="temperature"></p>
+            <p id="temperature" class="temperature"></p>
             <p id="description" class="description"></p>
         </div>
-        
+
         <div id="weatherdetal" class="weather-details">
             <div class="humidity">
-                <i class="fa-solid fa-droplet"></i> 
+                <i class="fa-solid fa-droplet"></i>
                 <div class="text">
-                    <span id=""></span>
+                    <span style="color:#df4e22" id=""></span>
                     <p>Rütubət</p>
                 </div>
             </div>
             <div class="humidity">
-                <i class="fa-solid fa-wind"></i> 
+                <i class="fa-solid fa-wind"></i>
                 <div class="text">
-                    <span></span>
                     <p>Küləyin sürəti</p>
+                    <span style="color:#c84e33" id="wind"></span>
                 </div>
             </div>
         </div>
