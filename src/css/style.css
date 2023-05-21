@@ -12,8 +12,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(https://wallpapercave.com/wp/wp8773827.jpg);
+    /* background: url(../video/weather-icon-animated-free-video.mp4); */
     background-size: cover;
+}
+
+
+.back-video{
+    position: absolute; 
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -55,7 +62,8 @@ body {
     width: 80%;
     font-size: 24px;
     font-weight: 500;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
     padding-left: 12px;
 }
 
