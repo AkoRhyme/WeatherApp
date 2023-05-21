@@ -193,7 +193,7 @@ function search() {
                                 break;
                             
                             case 'Clear':
-                                image.src = './src/img/Clear.jpg';
+                                image.src = './src/img/Clear.png';
                                 break;
 
                             case 'Rain':
