@@ -12,8 +12,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: url(../video/weather-icon-animated-free-video.mp4); */
+    background: url(../img/fon2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
