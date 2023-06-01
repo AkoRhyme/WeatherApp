@@ -15,7 +15,7 @@ function search() {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}&units=metric`;
 
 
-    localStorage.setItem('1', `${input.value}`);
+    localStorage.setItem(`${input.value}`, `${input.value}`);
 
 
     fetch(url)
@@ -72,31 +72,37 @@ function search() {
 
 
                         // image.src = `./src/img/${json.weather[0].main}.jpg`;
-                        switch (json.weather[0].main) {
+                        switch (json.weather[0].description) {
                             case 'Sunny':
                                 image.src = './src/img/Sunny.jpg';
                                 break;
-                            
-                            case 'Clear':
-                                image.src = './src/img/Clear.png';
+                            case 'clear sky':
+                                image.src = './src/img/Clear.jpg';
                                 break;
-
-                            case 'Rain':
+                            case 'scattered clouds':
+                                image.src = './src/img/scatteredclouds.png';
+                                break;
+                            case 'overcast clouds':
+                                image.src = './src/img/buludlugunes.png';
+                                break;
+                            case 'partly cloudy':
+                                image.src = './src/img/buludlugunes.png';
+                                break;
+                            case 'few clouds':
+                                image.src = './src/img/buludlugunes.png';
+                                break;
+                            case 'light rain':
                                 image.src = './src/img/Rain.jpg';
                                 break;
-
                             case 'Snow':
                                 image.src = './src/img/Snow.jpg';
                                 break;
-
                             case 'Clouds':
                                 image.src = './src/img/Clouds.jpg';
                                 break;
-
                             case 'Haze':
                                 image.src = './src/img/Haze.jpg';
                                 break;
-
                             default:
                                 image.src = '';
                         }

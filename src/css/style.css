@@ -12,16 +12,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/fon2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background: url(../img/fon2.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
 
 
 .back-video{
-    position: absolute; 
-    justify-content: center;
     width: 100%;
+    position: fixed;
+    justify-content: center;
 }
 
 
@@ -40,12 +40,13 @@ body {
     position: relative;
     width: 350px;
     height: 90px;
-    background: white;
+    background: rgb(211, 231, 235);
     padding: 18px 20px;
     overflow: hidden;
     border-radius: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: .6s ease-out;
+    right:32%;
 }
 
 
