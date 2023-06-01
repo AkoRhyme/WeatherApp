@@ -130,7 +130,7 @@ function search() {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}&units=metric`;
 
 
-
+    localStorage.setItem('1', `${input.value}`);
 
 
     fetch(url)
@@ -232,5 +232,6 @@ function search() {
                     });
             });
 }
+
 
 
