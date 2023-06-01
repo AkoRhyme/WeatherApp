@@ -82,6 +82,9 @@ function search() {
                             case 'scattered clouds':
                                 image.src = './src/img/scatteredclouds.png';
                                 break;
+                            case 'broken clouds':
+                                image.src = './src/img/scatteredclouds.png';
+                                break;
                             case 'overcast clouds':
                                 image.src = './src/img/buludlugunes.png';
                                 break;
