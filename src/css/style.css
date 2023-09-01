@@ -73,15 +73,7 @@ section .star.star6 {
     background: url(../img/star6.png);
 }
 
-section .star.star7 {
-    animation-delay: 0s;
-    background: url(../img/star7.png);
-}
 
-section .star.star8 {
-    animation-delay: 0s;
-    background: url(../img/star8.png);
-}
 
 
 @keyframes ulduz {
